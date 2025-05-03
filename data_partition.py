@@ -67,13 +67,13 @@ def process_beatmaps(osz_folder, output_folder_single, output_folder_5s_or_more_
 
             if category == 'single_timing_point':
                 dest_folder = os.path.join(output_folder_single)
-                print(f"✅ {filename} → Single uninherited timing point")
+                print(f"{filename} → Single uninherited timing point")
             elif category == 'multiple_timings_less_than_5s':
                 dest_folder = os.path.join(output_folder_less_than_5s_apart)
-                print(f"❌ {filename} → Multiple uninherited timing points, < 5s apart")
+                print(f"{filename} → Multiple uninherited timing points, < 5s apart")
             else:
                 dest_folder = os.path.join(output_folder_5s_or_more_apart)
-                print(f"✅ {filename} → Multiple uninherited timing points, ≥ 5s apart")
+                print(f"{filename} → Multiple uninherited timing points, ≥ 5s apart")
 
             os.makedirs(dest_folder, exist_ok=True)
             shutil.move(osz_path, os.path.join(dest_folder, filename))

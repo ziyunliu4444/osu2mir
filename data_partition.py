@@ -85,7 +85,7 @@ def process_beatmaps(osz_folder, output_folder_single, output_folder_5s_or_more_
 
 
 # Example usage
-osu_folder = "./osz_with_change"  # Folder containing .osz files
+osu_folder = "./osz_folder"  # Folder containing .osz files
 output_folder_single = "./single_timing_point"  # Destination for songs with a single uninherited timing point
 output_folder_5s_or_more_apart = "./timing_5s_or_more_apart"  # Destination for songs with timings ≥ 5s apart
 output_folder_less_than_5s_apart = "./timing_less_than_5s_apart"  # Destination for songs with timings < 5s apart

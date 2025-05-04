@@ -10,3 +10,5 @@ data_conversion.py converts .osz files into audio and corresponding metered beat
 extract_uninherited_timing_points.py extracts uninherited timing points in .json format with corresponding audio.
 
 self_track_madmom.py is the pipeline we used to run madmom inferences.
+
+madmom_evaluation.py compares madmom result with user's annotations.

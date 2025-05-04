@@ -118,9 +118,9 @@ def process_osz_folder(folder_path):
 
     df = pd.DataFrame(data)
     df["variation_rating_uninherited"] = (df["num_uninherited_points"] - 1) / df["mp3_duration_seconds"]
-    df.to_csv(os.path.join(folder_path, "non_continuous_timing.csv"), index=False)
+    df.to_csv(os.path.join(folder_path, "song_info.csv"), index=False)
 
-    print("Metadata extraction complete. Saved to non_continuous_timing.csv.")
+    print("Metadata extraction complete. Saved to song_info.csv.")
 
 # Example usage
 if __name__ == "__main__":

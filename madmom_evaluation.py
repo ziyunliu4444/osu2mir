@@ -70,6 +70,6 @@ def evaluate_folder_f_cmlt_amlt(madmom_folder, label_folder, output_csv):
 if __name__ == "__main__":
     madmom_folder = "./madmom_results"
     label_folder = "./metered_beats"
-    output_csv = "./nochange_f_cmlt_amlt_results.csv"
+    output_csv = "./f_cmlt_amlt_results.csv"
 
     evaluate_folder_f_cmlt_amlt(madmom_folder, label_folder, output_csv)

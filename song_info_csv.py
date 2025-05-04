@@ -108,7 +108,7 @@ def process_osz_folder(folder_path):
     df = pd.DataFrame(records)
     if not df.empty:
         df["variation_rating_uninherited"] = (df["num_uninherited_points"] - 1) / df["mp3_duration_seconds"]
-        df.to_csv(os.path.join(folder_path, "single_timing_song_info.csv"), index=False)
+        df.to_csv(os.path.join(folder_path, "song_info.csv"), index=False)
         print("Saved .csv")
     else:
         print("No valid data processed.")

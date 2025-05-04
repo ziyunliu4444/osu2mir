@@ -12,3 +12,5 @@ extract_uninherited_timing_points.py extracts uninherited timing points in .json
 self_track_madmom.py is the pipeline we used to run madmom inferences.
 
 madmom_evaluation.py compares madmom result with user's annotations.
+
+song_info_csv.py extracts beatmap information including title, artist, creator, tags, number of uninherited timing points, and mp3 duration into a .csv file.

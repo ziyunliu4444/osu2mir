@@ -18,3 +18,5 @@ You can use song_info_csv.py to extract information including title, artist, cre
 self_track_madmom.py is the pipeline we used to run madmom inferences in our guide. Use GPU if possible.
 
 madmom_evaluation.py is the script we used to compare madmom result with user's annotations in the guide.
+
+The .csv files are the original files we used in our analysis in the guide.

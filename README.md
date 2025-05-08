@@ -1,16 +1,20 @@
 # osu-for-beat-tracking
 Pipelines for using Osu! data for beat and downbeat tracking
 
-.osz files (original beatmap files) can be batch-downloaded at https://github.com/nzbasic/batch-beatmap-downloader.
+Follow the following steps if you want to use Osu! data for beat and downbeat tracking:
 
-data_partition.py groups the .osz files into files with 1. single uninherited timing point 2. multiple uninherited timing point (>=5s apart) and 3. multiple uninherited timing point (<5s apart).
+1. Download .osz files (original beatmap files) using https://github.com/nzbasic/batch-beatmap-downloader. Remember to filter for only ranked beatmaps to ensure quality. For other filters, you can either follow our guide or choose on your own.
 
-data_conversion.py converts .osz files into audio and corresponding metered beat annotations in .txt format, which are typically used as ground truth in beat and downbeat tracking research.
+2. Use data_partition.py to group the .osz files into files with 1. single uninherited timing point 2. multiple uninherited timing point (>=5s apart) and 3. multiple uninherited timing point (<5s apart). Subset 1 and subset 2 should have high quality, use subset 3 with caution.
 
-extract_uninherited_timing_points.py extracts only uninherited timing points in .json format with corresponding audio.
+3. Use data_conversion.py to convert .osz files into audio and corresponding metered beat annotations in .txt format, which are typically used as ground truth in beat and downbeat tracking research.
 
-self_track_madmom.py is the pipeline we used to run madmom inferences. Use GPU if possible.
+Extra:
 
-madmom_evaluation.py compares madmom result with user's annotations.
+You can use extract_uninherited_timing_points.py to extract only uninherited timing points in .json format with corresponding audio.
 
-song_info_csv.py extracts beatmap information including title, artist, creator, tags, number of uninherited timing points, and mp3 duration into a .csv file.
+You can use song_info_csv.py to extract information including title, artist, creator, tags, number of uninherited timing points, and mp3 duration for all beatmaps in a folder into a single .csv file.
+
+self_track_madmom.py is the pipeline we used to run madmom inferences in our guide. Use GPU if possible.
+
+madmom_evaluation.py is the script we used to compare madmom result with user's annotations in the guide.

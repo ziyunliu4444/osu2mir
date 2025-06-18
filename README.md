@@ -1,15 +1,24 @@
-# osu-for-beat-tracking
-Pipelines for using Osu! data for beat and downbeat tracking
+# Osu2MIR
 
-Follow the following steps if you want to use Osu! data for beat and downbeat tracking:
+Repository for extended abstract Osu2MIR: A Guide to Using Osu! Data for Beat Tracking
 
-1. Download .osz files (original beatmap files) using https://github.com/nzbasic/batch-beatmap-downloader. Remember to filter for only ranked beatmaps to ensure quality. For other filters, you can either follow our guide or choose on your own.
+## How to Use
 
-2. Use data_partition.py to group the .osz files into files with 1. single uninherited timing point 2. multiple uninherited timing point (>=5s apart) and 3. multiple uninherited timing point (<5s apart). Subset 1 and subset 2 should have high quality, use subset 3 with caution. Further details are in the guide.
+Follow the following steps if you want to construct beat and downbeat datasets on your own:
 
-3. Use data_conversion.py to convert .osz files into audio and corresponding metered beat annotations in .txt format, which are typically used as ground truth in beat and downbeat tracking research.
+### Step 1: Download Beatmaps
 
-Extra:
+Download .osz files (original beatmap files) using https://github.com/nzbasic/batch-beatmap-downloader. Remember to filter for only ranked beatmaps to ensure quality. For other filters, you can either follow our guide or choose on your own.
+
+### Step 2: Partition the Data
+
+Use data_partition.py to group the .osz files into files with 1. single uninherited timing point 2. multiple uninherited timing point (>=5s apart) and 3. multiple uninherited timing point (<5s apart). Subset 1 and subset 2 should have high quality, use subset 3 with caution. Further details are in the guide.
+
+### Step 3: Convert to Metered Beats
+
+Use data_conversion.py to convert .osz files into audio and corresponding metered beat annotations in .txt format, which are typically used as ground truth in beat and downbeat tracking research.
+
+## Additional Tools
 
 You can use extract_uninherited_timing_points.py to extract only uninherited timing points in .json format with corresponding audio.
 

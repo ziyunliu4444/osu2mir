@@ -28,4 +28,10 @@ self_track_madmom.py is the pipeline we used to run madmom inferences in our gui
 
 madmom_evaluation.py is the script we used to compare madmom result with user's annotations in the guide.
 
+## Tables
+
 The .csv files are the original files we used in our analysis in the guide.
+
+## Standalone Dataset
+
+osu2beat2025_metered_beats.zip contains the metered beats of the second subset in our study. Please contact us at ziyunliu@alumni.cmu.edu if you want to access the audio files directly.

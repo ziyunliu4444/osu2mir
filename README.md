@@ -30,7 +30,7 @@ madmom_evaluation.py is the script we used to compare madmom result with user's 
 
 ## Tables
 
-The .csv files are the original files we used for our analysis in the guide.
+The .csv files are the original tables we used for our analysis in the guide, single represents songs with single uninherited timing point, geq5 represents songs with multiple uninherited timing points at least 5s apart, le5 represents songs with uninherited timing points <5s apart.
 
 ## Standalone Dataset
 

@@ -35,3 +35,9 @@ The .csv files are the original files we used in our analysis in the guide.
 ## Standalone Dataset
 
 osu2beat2025_metered_beats.zip contains the metered beats of the second subset in our study. Please contact us at ziyunliu@alumni.cmu.edu if you want to access the audio files directly.
+
+## Contributing
+
+We aim to build a community where beatmap creators and MIR researchers develop and expand tools together to support various needs.
+
+Discord: https://discord.gg/hYM3NkTzAW

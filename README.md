@@ -1,6 +1,6 @@
 # Osu2MIR
 
-Repository for extended abstract Osu2MIR: A Guide to Using Osu! Data for Beat Tracking
+Repository for Osu2MIR: A Guide to Using Osu! Data for Beat Tracking
 
 ## How to Use
 

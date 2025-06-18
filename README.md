@@ -30,7 +30,7 @@ madmom_evaluation.py is the script we used to compare madmom result with user's 
 
 ## Tables
 
-The .csv files are the original files we used in our analysis in the guide.
+The .csv files are the original files we used for our analysis in the guide.
 
 ## Standalone Dataset
 

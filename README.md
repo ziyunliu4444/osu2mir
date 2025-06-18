@@ -12,7 +12,7 @@ Download .osz files (original beatmap files) using https://github.com/nzbasic/ba
 
 ### Step 2: Partition the Data
 
-Use data_partition.py to group the .osz files into files with 1. single uninherited timing point 2. multiple uninherited timing point (>=5s apart) and 3. multiple uninherited timing point (<5s apart). Subset 1 and subset 2 should have high quality, use subset 3 with caution. Further details are in the guide.
+Use data_partition.py to group the .osz files into files with 1. single uninherited timing point 2. multiple uninherited timing point (>=5s apart) and 3. multiple uninherited timing point (<5s apart). Subset 1 and subset 2 should have high quality, use subset 3 with caution. Further details are in the guide. Feel free to experiment with other conditions.
 
 ### Step 3: Convert to Metered Beats
 

@@ -8,8 +8,6 @@ osu2beat2025_metered_beats.zip contains the metered beats of the second subset i
 
 ## Constructing Your Own Dataset
 
-Follow these steps if you want to construct beat and downbeat datasets on your own:
-
 ### Step 1: Download Beatmaps
 
 Download .osz files (original beatmap files) using https://github.com/nzbasic/batch-beatmap-downloader. Remember to filter for only ranked beatmaps to ensure quality. For other filters, you can either follow our guide or choose on your own.

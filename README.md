@@ -8,7 +8,7 @@ osu2beat2025_metered_beats.zip contains the metered beats of the second subset i
 
 ## Constructing Your Own Dataset
 
-Follow the following steps if you want to construct beat and downbeat datasets on your own:
+Follow these steps if you want to construct beat and downbeat datasets on your own:
 
 ### Step 1: Download Beatmaps
 

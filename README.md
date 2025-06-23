@@ -4,7 +4,7 @@ Repository for Osu2MIR: Beat Tracking Dataset Derived From Osu! Data
 
 ## Standalone Dataset
 
-osu2beat2025_metered_beats.zip contains the metered beats of the second subset in our study. Please contact us at ziyunliu@alumni.cmu.edu if you want to access the audio files directly.
+osu2beat2025_metered_beats.zip contains the metered beats of the second subset in our study, naming format is {MD5}_{beatmap set ID}_beats_metered.txt. Please contact us at ziyunliu@alumni.cmu.edu if you want to access the audio files directly.
 
 ## Constructing Your Own Dataset
 

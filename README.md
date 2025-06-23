@@ -22,9 +22,9 @@ Use data_conversion.py to convert .osz files into audio and corresponding metere
 
 ## Additional Tools
 
-You can use extract_uninherited_timing_points.py to extract only uninherited timing points in .json format with corresponding audio.
+extract_uninherited_timing_points.py extracts only uninherited timing points in .json format with corresponding audio.
 
-You can use song_info_csv.py to extract information including title, artist, creator, tags, number of uninherited timing points, and mp3 duration for all beatmaps in a folder into a single .csv file.
+song_info_csv.py extracts information including title, artist, creator, tags, number of uninherited timing points, and mp3 duration for all beatmaps in a folder into a single .csv file.
 
 self_track_madmom.py is the pipeline we used to run madmom inferences in our guide. Use GPU if possible.
 

@@ -1,8 +1,12 @@
 # Osu2MIR
 
-Repository for Osu2MIR: A Guide to Using Osu! Data for Beat Tracking
+Repository for Osu2MIR: Beat Tracking Dataset Derived From Osu! Data
 
-## How to Use
+## Standalone Dataset
+
+osu2beat2025_metered_beats.zip contains the metered beats of the second subset in our study. Please contact us at ziyunliu@alumni.cmu.edu if you want to access the audio files directly.
+
+## Constructing Your Own Dataset
 
 Follow the following steps if you want to construct beat and downbeat datasets on your own:
 
@@ -31,10 +35,6 @@ madmom_evaluation.py is the script we used to compare madmom result with user's 
 ## Tables
 
 The .csv files are the original tables we used for our analysis in the guide, single represents songs with single uninherited timing point, geq5 represents songs with multiple uninherited timing points >=5s apart, le5 represents songs with uninherited timing points <5s apart.
-
-## Standalone Dataset
-
-osu2beat2025_metered_beats.zip contains the metered beats of the second subset in our study. Please contact us at ziyunliu@alumni.cmu.edu if you want to access the audio files directly.
 
 ## Contributing
 

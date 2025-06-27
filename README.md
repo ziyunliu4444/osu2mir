@@ -10,11 +10,11 @@ osu2beat2025_metered_beats.zip contains the metered beats of the second subset i
 
 ### Step 1: Download Beatmaps
 
-Download .osz files (original beatmap files) using https://github.com/nzbasic/batch-beatmap-downloader. Remember to filter for only ranked beatmaps to ensure quality. For other filters, you can either follow our guide or choose on your own.
+Download .osz files (original beatmap files) using https://github.com/nzbasic/batch-beatmap-downloader. Remember to filter for only ranked beatmaps to ensure quality. For other filters, you can either follow our paper or choose on your own.
 
 ### Step 2: Partition the Data
 
-Use data_partition.py to group the .osz files into files with 1. single uninherited timing point 2. multiple uninherited timing point (>=5s apart) and 3. multiple uninherited timing point (<5s apart). Subset 1 and subset 2 should have high quality, use subset 3 with caution. Further details are in the guide. Feel free to experiment with other conditions.
+Use data_partition.py to group the .osz files into files with 1. single uninherited timing point 2. multiple uninherited timing point (>=5s apart) and 3. multiple uninherited timing point (<5s apart). Subset 1 and subset 2 should have high quality, use subset 3 with caution. Further details are in the paper. Feel free to experiment with other conditions.
 
 ### Step 3: Convert to Metered Beats
 
@@ -32,7 +32,7 @@ madmom_evaluation.py is the script we used to compare madmom result with user's 
 
 ## Tables
 
-The .csv files are the original tables we used for our analysis in the guide, single represents songs with single uninherited timing point, geq5 represents songs with multiple uninherited timing points >=5s apart, le5 represents songs with uninherited timing points <5s apart.
+The .csv files are the original tables we used for our analysis in the paper, single represents songs with single uninherited timing point, geq5 represents songs with multiple uninherited timing points >=5s apart, le5 represents songs with uninherited timing points <5s apart.
 
 ## Contributing
 

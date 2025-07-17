@@ -1,6 +1,6 @@
 # Osu2MIR
 
-Repository for Osu2MIR: Beat Tracking Dataset Derived From Osu! Data
+Repository for Osu2MIR: Beat Tracking Dataset Derived From Osu! Data (ISMIR2025 LBD)
 
 ## Standalone Dataset
 

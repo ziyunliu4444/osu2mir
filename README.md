@@ -36,6 +36,6 @@ The .csv files are the original tables we used for our analysis in the paper, si
 
 ## Contributing
 
-We aim to build a community where beatmap creators and MIR researchers develop and expand tools together to support various needs.
+Join us to build a community where beatmap creators and MIR researchers develop and expand tools together to support various needs!
 
 Discord: https://discord.gg/hYM3NkTzAW

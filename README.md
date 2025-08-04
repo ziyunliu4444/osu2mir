@@ -2,6 +2,9 @@
 
 Repository for Osu2MIR: Beat Tracking Dataset Derived From Osu! Data (ISMIR2025 LBD)
 
+<img width="464" height="198" alt="thumbnail·" src="https://github.com/user-attachments/assets/974eb6ed-b011-46b3-9200-d8a9634c47ae" />
+
+
 ## Standalone Dataset
 
 osu2beat2025_metered_beats.zip contains the metered beats of the second subset in our study, covering 741 user annotations for 708 distinct audios. The naming format is MD5_BeatmapSetID_beats_metered.txt.

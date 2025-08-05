@@ -2,7 +2,8 @@
 
 Repository for Osu2MIR: Beat Tracking Dataset Derived From Osu! Data (ISMIR2025 LBD)
 
-<img width="464" height="198" alt="thumbnail·" src="https://github.com/user-attachments/assets/974eb6ed-b011-46b3-9200-d8a9634c47ae" />
+<img width="680" height="277" alt="thumbnail" src="https://github.com/user-attachments/assets/12fcc65d-6b9c-43a3-b0cf-9ae07aada290" />
+
 
 
 ## Standalone Dataset

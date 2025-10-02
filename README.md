@@ -10,7 +10,12 @@ arXiv: https://arxiv.org/abs/2509.12667
 
 ## Standalone Dataset
 
-osu2beat2025_metered_beats.zip contains the metered beats of the second subset in our study, covering 741 user annotations for 708 distinct audios. The naming format is MD5_BeatmapSetID_beats_metered.txt.
+osu2beat2025_metered_beats.zip contains the metered beats of the second subset in our study, covering 741 user annotations for 708 distinct audios. The naming format is <MD5>_<BeatmapSetID>_beats_metered.txt. We do not own the copyright of the audio files, so you need to download the audio files by yourself, and here's the recommended procedure:
+
+1. Download the beatmap with the given `<BeatmapSetID>` from https://osu.ppy.sh/beatmapsets/<BeatmapSetID>.
+2. Extract the `.osz` file to obtain the MP3.
+3. Compute the MD5 checksum of the MP3 and verify it matches `<MD5>`.
+
 
 ## Constructing Your Own Dataset
 

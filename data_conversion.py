@@ -103,8 +103,11 @@ def process_osz_file(osz_path, audio_folder, annotation_folder):
 
         target_mp3_path = os.path.join(tmpdir, target_mp3_name)
         if not os.path.isfile(target_mp3_path):
-            print(f"❌ Expected mp3 file '{target_mp3_name}' not found in {song_name}")
-            return
+            if os.path.isfile(target_mp3_path.lower()):
+                target_mp3_path = target_mp3_path.lower()
+            else:
+                print(f"❌ Expected mp3 file '{target_mp3_name}' not found in {song_name}")
+                return
 
         duration_ms = get_mp3_duration_safe(target_mp3_path)
         if not duration_ms:
